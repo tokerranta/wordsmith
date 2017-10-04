@@ -1,0 +1,8 @@
+C:\Dev\wordsmith\Wordsmith.Core\bin\Debug\netstandard2.0\Wordsmith.Core.deps.json
+C:\Dev\wordsmith\Wordsmith.Core\bin\Debug\netstandard2.0\Wordsmith.Core.dll
+C:\Dev\wordsmith\Wordsmith.Core\bin\Debug\netstandard2.0\Wordsmith.Core.pdb
+C:\Dev\wordsmith\Wordsmith.Core\obj\Debug\netstandard2.0\Wordsmith.Core.csproj.CoreCompileInputs.cache
+C:\Dev\wordsmith\Wordsmith.Core\obj\Debug\netstandard2.0\Wordsmith.Core.AssemblyInfoInputs.cache
+C:\Dev\wordsmith\Wordsmith.Core\obj\Debug\netstandard2.0\Wordsmith.Core.AssemblyInfo.cs
+C:\Dev\wordsmith\Wordsmith.Core\obj\Debug\netstandard2.0\Wordsmith.Core.dll
+C:\Dev\wordsmith\Wordsmith.Core\obj\Debug\netstandard2.0\Wordsmith.Core.pdb

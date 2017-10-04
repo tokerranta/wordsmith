@@ -1,0 +1,16 @@
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\bin\Debug\netcoreapp2.0\Wordsmith.Domain.Tests.deps.json
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\bin\Debug\netcoreapp2.0\Wordsmith.Domain.Tests.runtimeconfig.json
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\bin\Debug\netcoreapp2.0\Wordsmith.Domain.Tests.runtimeconfig.dev.json
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\bin\Debug\netcoreapp2.0\Wordsmith.Domain.Tests.dll
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\bin\Debug\netcoreapp2.0\Wordsmith.Domain.Tests.pdb
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\obj\Debug\netcoreapp2.0\Wordsmith.Domain.Tests.csproj.CoreCompileInputs.cache
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\obj\Debug\netcoreapp2.0\Wordsmith.Domain.Tests.AssemblyInfoInputs.cache
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\obj\Debug\netcoreapp2.0\Wordsmith.Domain.Tests.AssemblyInfo.cs
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\obj\Debug\netcoreapp2.0\Wordsmith.Domain.Tests.dll
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\obj\Debug\netcoreapp2.0\Wordsmith.Domain.Tests.pdb
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\bin\Debug\netcoreapp2.0\Wordsmith.Domain.dll
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\bin\Debug\netcoreapp2.0\Wordsmith.Domain.pdb
+C:\Dev\wordsmith\Wordsmith.Domain.Tests\obj\Debug\netcoreapp2.0\Wordsmith.Domain.Tests.csprojResolveAssemblyReference.cache

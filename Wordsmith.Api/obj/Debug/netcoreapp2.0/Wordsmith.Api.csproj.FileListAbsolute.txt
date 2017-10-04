@@ -1,0 +1,15 @@
+C:\Dev\wordsmith\Wordsmith.Api\bin\Debug\netcoreapp2.0\Wordsmith.Api.deps.json
+C:\Dev\wordsmith\Wordsmith.Api\bin\Debug\netcoreapp2.0\Wordsmith.Api.runtimeconfig.json
+C:\Dev\wordsmith\Wordsmith.Api\bin\Debug\netcoreapp2.0\Wordsmith.Api.runtimeconfig.dev.json
+C:\Dev\wordsmith\Wordsmith.Api\bin\Debug\netcoreapp2.0\Wordsmith.Api.dll
+C:\Dev\wordsmith\Wordsmith.Api\bin\Debug\netcoreapp2.0\Wordsmith.Api.pdb
+C:\Dev\wordsmith\Wordsmith.Api\obj\Debug\netcoreapp2.0\Wordsmith.Api.csproj.CoreCompileInputs.cache
+C:\Dev\wordsmith\Wordsmith.Api\obj\Debug\netcoreapp2.0\Wordsmith.Api.AssemblyInfoInputs.cache
+C:\Dev\wordsmith\Wordsmith.Api\obj\Debug\netcoreapp2.0\Wordsmith.Api.AssemblyInfo.cs
+C:\Dev\wordsmith\Wordsmith.Api\obj\Debug\netcoreapp2.0\Wordsmith.Api.dll
+C:\Dev\wordsmith\Wordsmith.Api\obj\Debug\netcoreapp2.0\Wordsmith.Api.pdb
+C:\Dev\wordsmith\Wordsmith.Api\obj\Debug\netcoreapp2.0\Wordsmith.Api.csprojResolveAssemblyReference.cache
+C:\Dev\wordsmith\Wordsmith.Api\bin\Debug\netcoreapp2.0\Wordsmith.Domain.dll
+C:\Dev\wordsmith\Wordsmith.Api\bin\Debug\netcoreapp2.0\Wordsmith.Domain.pdb
+C:\Dev\wordsmith\Wordsmith.Api\bin\Debug\netcoreapp2.0\Wordsmith.Core.dll
+C:\Dev\wordsmith\Wordsmith.Api\bin\Debug\netcoreapp2.0\Wordsmith.Core.pdb
