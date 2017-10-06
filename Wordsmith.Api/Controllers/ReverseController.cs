@@ -28,7 +28,7 @@ namespace Wordsmith.Api.Controllers
 
             var result = _reverseService.GetReversedResult(input);
             _reverseService.SaveToHistory(result);
-            // Add to history
+
             return Ok(result);
         }
     }

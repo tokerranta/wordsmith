@@ -1,6 +1,6 @@
 import Enzyme, { shallow } from 'enzyme';
-import React from 'react';
-import History from './History';
+import React from 'react'; // eslint-disable-line no-unused-vars
+import History from './History'; // eslint-disable-line no-unused-vars
 import expect from 'expect';
 import Adapter from 'enzyme-adapter-react-15';
 Enzyme.configure({ adapter: new Adapter() });

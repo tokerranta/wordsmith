@@ -4,14 +4,15 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './actions';
 import History from './History'; // eslint-disable-line no-unused-vars
+import RequiredTextInput from '../common/RequiredTextInput'; // eslint-disable-line no-unused-vars
 
-class HomePage extends React.Component {
+export class HomePage extends React.Component {
 
     constructor(props) {
         super(props);
         this.reverse = this.reverse.bind(this);
         this.handleChange = this.handleChange.bind(this);
-        this.state = { phrase: '' };
+        this.state = { phrase: '', isEmpty: true };
     }
 
     componentDidMount() {
@@ -24,14 +25,17 @@ class HomePage extends React.Component {
     }
 
     handleChange(event) {
-        this.setState({ phrase: event.target.value });
+        const phrase = event.target.value;
+        const emptyLength = 0;
+        const isEmpty = phrase.length === emptyLength;
+        this.setState({ phrase, isEmpty });
     }
 
     render() {
         const {reverseHistory} = this.props;
         return <div>
-                    <input type="text" onChange={this.handleChange} value={this.state.phrase} />
-                    <button onClick={this.reverse}>Reverse</button>
+                    <RequiredTextInput onChange={this.handleChange} value={this.state.phrase} placeholderText="type your phrase here..." />
+                    <button onClick={this.reverse} disabled={this.state.isEmpty}>Reverse</button>
                     <div>
                         <History reverseHistory={reverseHistory} />
                     </div>
