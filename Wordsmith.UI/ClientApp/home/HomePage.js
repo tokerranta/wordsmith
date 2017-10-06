@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './actions';
-import History from './History';
+import History from './History'; // eslint-disable-line no-unused-vars
 
 class HomePage extends React.Component {
 
@@ -28,7 +28,7 @@ class HomePage extends React.Component {
     }
 
     render() {
-        const {reversedPhrase, reverseHistory} = this.props;
+        const {reverseHistory} = this.props;
         return <div>
                     <input type="text" onChange={this.handleChange} value={this.state.phrase} />
                     <button onClick={this.reverse}>Reverse</button>
@@ -41,16 +41,14 @@ class HomePage extends React.Component {
 
 HomePage.propTypes = {
     reverseHistory: PropTypes.arrayOf(PropTypes.object).isRequired,
-    reversedPhrase: PropTypes.object.isRequired,
     actions: PropTypes.object.isRequired
 };
 
 const mapStateToProps = (state) => {
     return {
-        reverseHistory: state.reverseHistory,
-        reversedPhrase: state.reversedPhrase
+        reverseHistory: state.reverseHistory
     };
-}
+};
 
 const mapDispatchToProps = (dispatch) => {
     return {

@@ -1,4 +1,4 @@
-import * as types from "./actionTypes"; 
+import * as types from './actionTypes';
 
 export const requestReverseHistory = () => {
     return { type: types.REQUEST_REVERSE_HISTORY };

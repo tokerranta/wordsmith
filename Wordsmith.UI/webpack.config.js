@@ -16,7 +16,7 @@ module.exports = (env) => {
         },
         module: {
             rules: [
-                { test: /\.js?$/, include: /ClientApp/, loader: 'babel-loader', query: { presets: ["es2015", "react"] } },
+                { test: /\.js?$/, include: /ClientApp/, loader: 'babel-loader', query: { presets: ['es2015', 'react'] } },
                 { test: /\.(png|jpg|jpeg|gif|svg)$/, use: 'url-loader?limit=25000' }
             ]
         }

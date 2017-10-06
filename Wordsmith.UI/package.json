@@ -2,6 +2,11 @@
   "name": "Wordsmith_UI",
   "private": true,
   "version": "0.0.0",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
   "dependencies": {
     "aspnet-prerendering": "^3.0.1",
     "aspnet-webpack": "^2.0.1",
@@ -13,6 +18,7 @@
     "css-loader": "0.28.4",
     "domain-task": "^3.0.3",
     "event-source-polyfill": "0.0.9",
+    "expect": "^21.2.1",
     "extract-text-webpack-plugin": "2.1.2",
     "file-loader": "0.11.2",
     "history": "4.6.3",
@@ -38,6 +44,18 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
-    "babel-plugin-transform-regenerator": "^6.26.0"
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "eslint": "^4.8.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-watch": "^3.1.2",
+    "mocha": "^4.0.0"
+  },
+  "scripts": {
+    "lint": "node_modules/.bin/esw -f simple-detail webpack.config.* ClientApp/home",
+    "lint:watch": "npm run lint -- --watch",
+    "test": "mocha --compilers js:babel-core/register --reporter spec \"./ClientApp/**/*.spec.js\"",
+    "test:watch": "npm test -- --watch",
+    "start": "npm-run-all --parallel test:watch lint:watch"
   }
 }

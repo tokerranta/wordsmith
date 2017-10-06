@@ -8,7 +8,6 @@ class ReverseHistoryApi {
     }
 
     static reversePhrase(phrase) {
-        console.log(phrase);
         return fetch(apiConfig.reverseUrl, {
             method: 'POST',
             body: JSON.stringify(phrase),

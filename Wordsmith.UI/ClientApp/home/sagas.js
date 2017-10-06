@@ -7,8 +7,7 @@ function* requestReverseHistory() {
     try {
         const reverseHistory = yield call(api.getReverseHistory);
         yield put(actions.requestReverseHistorySucceeded(reverseHistory));
-    }
-    catch(e) {
+    } catch (e) {
         yield put(actions.requestReverseHistoryFailed(e.message));
     }
 }
@@ -18,12 +17,11 @@ export function* reverseHistorySaga() {
 }
 
 function* reversePhrase(action) {
-    try{
+    try {
         const reversed = yield call(api.reversePhrase, action.phrase);
         yield put(actions.reversePhraseSucceeded(reversed));
         yield put(actions.requestReverseHistory());
-    }
-    catch(e) {
+    } catch (e) {
         yield put(actions.reversePhraseFailed(e.message));
     }
 }
