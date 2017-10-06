@@ -33,7 +33,7 @@ export class HomePage extends React.Component {
 
     render() {
         const {reverseHistory} = this.props;
-        return <div>
+        return <div className="page-wrapper">
                     <RequiredTextInput onChange={this.handleChange} value={this.state.phrase} placeholderText="type your phrase here..." />
                     <button onClick={this.reverse} disabled={this.state.isEmpty}>Reverse</button>
                     <div>
