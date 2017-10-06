@@ -6,7 +6,7 @@ const History = ({reverseHistory}) => {
         <ul>
             {reverseHistory.map((r,k) => {
                 return (
-                    <li key={k}>phrase: {r.phrase} reversed: {r.reversed}</li>
+                    <li key={k}><strong>phrase:</strong> {r.phrase} <strong>reversed:</strong> {r.reversed}</li>
                 );
             })}
         </ul>
