@@ -28,7 +28,14 @@ module.exports = (env) => {
         entry: { 'main-client': ['babel-polyfill', './ClientApp/boot-client.js'] },
         module: {
             rules: [
-                { test: /\.css$/, use: ExtractTextPlugin.extract({ use: isDevBuild ? 'css-loader' : 'css-loader?minimize' }) }
+                {
+                    test: /\.scss$/,
+                    use: [
+                        { loader: 'style-loader' },
+                        { loader: 'css-loader' },
+                        { loader: 'sass-loader' }
+                    ]
+                }
             ]
         },
         output: { path: path.join(__dirname, clientBundleOutputDir) },

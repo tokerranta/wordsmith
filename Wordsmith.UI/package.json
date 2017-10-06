@@ -45,11 +45,16 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-regenerator": "^6.26.0",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-15": "^1.0.1",
     "eslint": "^4.8.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-react": "^7.4.0",
     "eslint-watch": "^3.1.2",
-    "mocha": "^4.0.0"
+    "mocha": "^4.0.0",
+    "node-sass": "^4.5.3",
+    "react-test-renderer": "^15.6.1",
+    "sass-loader": "^6.0.6"
   },
   "scripts": {
     "lint": "node_modules/.bin/esw -f simple-detail webpack.config.* ClientApp/home",
